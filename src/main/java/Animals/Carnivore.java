@@ -1,6 +1,6 @@
 package Animals;
 
-import Food.*;
+import Enclosure.*;
 //класс плотоядных животных
 public abstract class Carnivore extends Animal {
 

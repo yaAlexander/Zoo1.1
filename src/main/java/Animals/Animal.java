@@ -1,6 +1,6 @@
 package Animals;
 
-import Food.Food;
+import Enclosure.Food;
 
 public abstract class Animal {
     protected String name;
