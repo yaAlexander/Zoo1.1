@@ -1,13 +1,13 @@
-package Animals;
+package animals;
 
-import Enclosure.*;
+import food.Food;
 
-//класс травоядных животных
-public abstract class Herbivore extends Animal {
+//класс плотоядных животных
+public abstract class Carnivore extends Animal {
 
     public void eat(Food food) throws Exception {
         try {
-            if (food.idOfFood == 2) {
+            if (food.idOfFood == 1) {
                 System.out.println(name + " ест " + food.food);
             } else
                 throw new Exception();
@@ -16,4 +16,3 @@ public abstract class Herbivore extends Animal {
         }
     }
 }
-

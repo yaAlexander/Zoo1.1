@@ -1,8 +1,7 @@
-package Enclosure;
+package enclosure;
 
-import Animals.Animal;
-import Animals.Carnivore;
-import Animals.Herbivore;
+import animals.Animal;
+import animals.Herbivore;
 
 import java.util.ArrayList;
 

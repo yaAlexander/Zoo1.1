@@ -1,6 +1,6 @@
-package Enclosure;
+package enclosure;
 
-import Animals.Animal;
+import animals.Animal;
 
 public interface Enclosure {
     Animal getIndex(int index);

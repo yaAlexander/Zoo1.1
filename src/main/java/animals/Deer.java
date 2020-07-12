@@ -1,13 +1,11 @@
-package Animals;
+package animals;
 
-public class Duck extends Carnivore {
+public class Deer extends Herbivore{
     protected static int counter;
-
-    public Duck() {
+    public Deer() {
         counter++;
-        name = "Утка номер " + counter + " -";
+        name = "Олень номер " + counter + " -";
     }
-
     @Override
     public String getName() {
 

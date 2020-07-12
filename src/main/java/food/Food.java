@@ -1,4 +1,4 @@
-package Enclosure;
+package food;
 
 public enum Food {
 

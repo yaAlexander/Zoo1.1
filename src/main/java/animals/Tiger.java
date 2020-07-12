@@ -1,4 +1,4 @@
-package Animals;
+package animals;
 
 public class Tiger extends Carnivore {
     protected static int counter;

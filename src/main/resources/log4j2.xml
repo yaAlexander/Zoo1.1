@@ -9,10 +9,9 @@
         </File>
     </Appenders>
     <Loggers>
-        <Logger level="all" name="Enclosure">
-            <AppenderRef ref="file"/>
-        </Logger>
+
         <Root level="all">
+            <AppenderRef ref="file"/>
             <AppenderRef ref="Console"/>
         </Root>
     </Loggers>
