@@ -2,7 +2,6 @@
 <Configuration status="WARN">
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
-<<<<<<< HEAD
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
         <File name="file" fileName="logging.log">
@@ -13,19 +12,6 @@
 
         <Root level="all">
             <AppenderRef ref="file"/>
-=======
-            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
-        </Console>
-        <File name="file" fileName="logging.log">
-            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
-        </File>
-    </Appenders>
-    <Loggers>
-        <Logger level="all" name="Enclosure">
-            <AppenderRef ref="file"/>
-        </Logger>
-        <Root level="all">
->>>>>>> origin/master
             <AppenderRef ref="Console"/>
         </Root>
     </Loggers>

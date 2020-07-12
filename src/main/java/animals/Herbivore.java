@@ -1,10 +1,14 @@
 package animals;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 
 import food.Food;
 
 //класс травоядных животных
 public abstract class Herbivore extends Animal {
-
+    Gson gson = new GsonBuilder()
+            .setPrettyPrinting()
+            .create();
     public void eat(Food food) throws Exception {
         try {
             if (food.idOfFood == 2) {
